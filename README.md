@@ -4,11 +4,12 @@ Cybersecurity Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+Elk-Stack Network Diagram.draw.io
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  - Elk playbook
+  - Filebeats playbook
 
 This document contains the following details:
 - Description of the Topology
@@ -31,7 +32,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat records metrics on system services
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -71,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+Docker PS Screenshot
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
